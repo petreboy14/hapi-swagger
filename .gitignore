@@ -7,9 +7,15 @@ lib-cov
 *.pid
 *.gz
 
+data.json
+lcov.info
+coverage.html
+test.tap
+
 node_modules
 npm-debug.log
 .DS_Store
+.vscode
+.coveralls.yml
 
-public/swaggerui 2.0.8 mod
-public/swaggerui 2.0.10 mod
+test/certs/server.csr
